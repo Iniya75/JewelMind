@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+.venv/
+.venv-old/
+__pycache__/
+*.pyc
+
+dist/
+*.log
+
+.vscode/
+
+backend/invoices/*.pdf
+
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+.venv-old/
+dist/
+__pycache__/
+*.pyc
+.vscode/
+*.log
+backend/invoices/*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated invoices / private business documents
+backend/invoices/*.pdf
